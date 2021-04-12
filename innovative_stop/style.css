@@ -1,0 +1,1241 @@
+body{
+    font-size: 16px;
+    color:#fff;
+    background-color: white;
+    font-family:'Oxygen' , sans-serif;
+}
+#header-nav{
+    background-color: navajowhite;
+    border-radius :0;
+    border:0;
+    height: 170px;
+}
+#logo-img{
+ background: url("logo.png");
+ width:150px;
+ height:150px;
+ padding: 0;
+ float: left;
+ margin: 0 0 0 0 ;
+
+}
+.navbar-brand a :hover, .navbar-brand a:focus {
+    color: #f6b319;
+    text-decoration: none !important;
+}
+#heading{
+    text-decoration: none;
+    font-family: cursive;
+    text-emphasis-style: none;
+    color: #557c3e;
+
+    font-weight: bold;
+   
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-align: center;
+  
+
+    
+}
+.navbar-brand{
+    padding-top: 20px;
+    padding-left: 200px;
+    float: left;
+    
+}
+
+
+.navbar-brand p{
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px; 
+    
+}
+.navbar-brand {
+     padding-top: 0px; 
+     padding-left: 0px;
+    float: right;
+    
+}
+/***************phone number*******/
+#phone-no{
+    font-size: 30px;
+    font-weight: 20px;
+    font-family: cursive;
+    color: #61122f;
+}
+
+#wedeliver{
+    color: black;
+}
+/*********home,about,products****/   
+
+    
+
+.fas {
+    font-size: 40px;
+    color: #61122f;
+   
+}
+.far{
+    font-size: 40px;
+    color: #61122f;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.words{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.words hover{
+    background-color: #FFF;
+}
+/*********index image**********/
+.mainimageinindex{
+    padding:50px 50px 50px 50px;
+    width: 100%;
+    
+}
+.paragraph{
+    color: black;
+    text-align: center;
+    text-decoration-style: double;
+    font-size: 40px;
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*************products*********/
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width:20%;
+    height:300px;
+ 
+    margin :20px 0px 20px 55px; 
+    border:2px navajowhite;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+.container ul li:hover{
+    opacity: 0.8;
+}
+
+.container ul li .bottom{
+    width: 50%;
+    height:30px;
+    line-height: 30px;
+    background: navajowhite;    
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    border-radius: 20px;
+    text-shadow:black;  
+   
+}
+.container ul li .bottomm{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background: navajowhite;    
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    border-radius: 20px;
+    text-shadow:black; 
+}
+
+.navbar navbar-expand-lg navbar-light bg-light{
+    display:none;
+    background-color: aliceblue;
+    
+}
+.container-fluid{
+     display:none; 
+     
+}
+.aitpodsclass{
+    text-decoration: none;
+}
+..aitpodsclass:hover{
+    color: black;
+}
+.navbar-collapse{
+    flex-basis: 0%;
+}
+.nav-link{
+   padding: 10px 10px 10px 10px;
+    
+}
+
+
+
+/**********large devices only**********/
+@media(min-width : 1200px){
+.container ul li{
+        width:20%;
+        margin-left: 40px;
+         
+    }
+  .nav-link{
+    display: none;
+   }  
+    .navbar-expand-lg{
+        display: none;
+    }
+    .phone4{
+        display: none;
+    }
+    /*footer*/
+  
+
+}
+/**********medium devices only**********/
+@media(min-width : 992px) and (max-width: 1199px){
+    .container ul li{
+        width:40%;
+        margin-left: 40px;
+         
+    }
+   .nav-link{
+    display: none;
+    background-color: #f6b319;
+   }
+    .navbar-expand-lg{
+        display: none;
+    }
+    .phone4{
+        display: none;
+    }
+    /*footer*/
+    .happyfooter{
+	position: fixed;
+	bottom: 0;
+    }
+}
+/**********small devices only**********/
+@media(min-width : 1200px) and (max-width: 991px){
+   .container ul li{
+        width:40%;
+        margin-left: 40px;
+         
+    } 
+    .phone4{
+        text-decoration: none;
+        color: black;
+        padding:2px;
+         width: 0.5px;
+         height: 0.5x;
+         margin: auto;
+         
+      
+    
+    }
+    /*footer*/
+    .happyfooter{
+	position: fixed;
+	bottom: 0;
+    }
+
+}
+/**********extra small devices only**********/
+@media(min-width : 767px) and (max-width:990px){
+    .container ul li{
+        width:40%;
+        margin-left: 50px;
+         
+    }
+    .fas {
+    font-size: 0px;
+    color: #61122f;
+    }
+    #phone-no{
+        display: none;
+    }
+    #wedeliver{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .words{
+        display: none;
+    }
+    .far{
+        display: none;
+    }
+    #About{
+        display: none;
+    }
+  
+   
+    .container-fluid{
+      padding-bottom: 0px;
+        padding-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+       color: bisque;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding: 10px;
+        
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+        font-weight: bold;
+        
+    }
+     .phone4{
+        text-decoration: none;
+        color: black;
+           padding:5px;
+      
+         width: 0.5px;
+         height: 0.5x;
+         margin: auto;
+         
+       
+    }
+    /*footer*/
+    .happyfooter{
+	position: fixed;
+	bottom: 0;
+    }
+}
+
+/*************** mobile phones***************/
+@media(min-width : 20px) and (max-width:760px){
+.container ul li{
+        width:100%;
+        margin-left: 0px;
+         
+    }
+    .fas {
+    font-size: 0px;
+    color: #61122f;
+    }
+    #phone-no{
+        display: none;
+    }
+    #wedeliver{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .words{
+        display: none;
+    }groun
+    .far{
+        display: none;
+    }
+    #About{
+        display: none;
+    }
+    .navbar-toggler{
+        background-color: aliceblue;
+    }
+     .phone4{
+        text-decoration: none;
+         color: black;
+         padding:1px;
+         width: 0.5px;
+         height: 0.5x;
+         margin: auto;
+         
+        
+    }
+    .phone4:hover{
+        color: black;
+    }
+    #logo-img{
+        display: none;
+    }
+
+/*footer*/
+    .happyfooter{
+	position: fixed;
+	bottom: 0;
+    }
+  }
+/**************about***********/
+.aboutpara{
+     padding: 50px 50px 50px 50px;
+    border: 10px solid black;
+    height:600px;
+    width:100%;
+  
+}
+.paragraphone{
+    font-size: 50px;
+    color: #e0ac1c;
+    font-weight: bolder;
+     font-family: Lucida Handwriting;
+    
+}
+.paragraphtwo{
+       font-size: 30px;
+    color: black;
+    font-weight: bolder;
+     font-family: Lucida Handwriting;
+}
+.paragraphthree{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding:2px;
+     
+   
+
+}
+/*********************footer***********************/
+
+
+@media (max-height:800px){
+	
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.whatsapp_float {
+          position: fixed;
+          width: 60px;
+          height: 60px;
+          bottom: 40px;
+          right: 40px;
+          background-color: #25d366;
+          color: #FFF;
+          border-radius: 50px;
+          text-align: center;
+          font-size: 30px;
+          box-shadow: 2px 2px 3px #999;
+          z-index: 100;
+      }
+
+      .whatsapp-icon {
+          margin-top: 16px;
+      }
+
+      /* for mobile */
+      @media screen and (max-width: 767px) {
+          .whatsapp-icon {
+              margin-top: 10px;
+          }
+
+          .whatsapp_float {
+              width: 40px;
+              height: 40px;
+              bottom: 20px;
+              right: 10px;
+              font-size: 22px;
+          }
+      }
+/******************background images for smart watches******************/
+.firstpic{
+   background: url(smartwatches/smartwatches.jpg) no-repeat center;
+    background-size: 390px;
+   
+}
+/******************     jeans pant      *******************/
+.secondpic{
+   background: url(Jeans_pant/jeans.jpg) no-repeat center;
+    background-size: 290px; 
+}
+/******************    Premium Analog Watches    *******************/
+.thirdpic{
+   background: url(analogwatches/premimuanalogwatches.jpg) no-repeat center;
+    background-size: 450px;
+}
+/******************    Airpods    *******************/
+.fourthpic{
+     background: url(airpods/airpods.jpg) no-repeat center;
+    background-size: 377px;
+}
+/******************   Sun Glasses    *******************/
+.fifthpic{
+    background: url(sunglasses/sunglasses.jpg) no-repeat center;
+    background-size: 377px;
+}
+/******************   Slippers  *******************/
+.sixthpic{
+    background:url(slippers/slippers.jpg) no-repeat center;
+    background-size: 370px;
+}
+
+/****************** shoes  *******************/
+.seventhpic{
+    background: url(shoes/shoes.jpg) no-repeat center;
+    background-size: 327px;
+}
+
+/****************** Gifts   *******************/
+.eigthpic{
+  background: url(gifts/gifts.jpg) no-repeat center;
+    background-size: 280px;  
+    padding-bottom: 10px;
+}
+
+/******************  Toys  *******************/
+.ninthpic{
+   background: url(toys/toys.jpg) no-repeat center;
+    background-size: 295px;  
+    
+}
+
+
+
+/****************** speakers  *******************/
+
+.tenthpic{
+    background: url(speaker/speakers.jpg) no-repeat center;
+     background-size: 377px;
+    
+}
+/****************** cycles *******************/
+
+.thpic{
+    background: url(cycles/cycle.jpg) no-repeat center;
+     background-size: 377px;
+    
+}
+/******************  Ear phones  *******************/
+
+.twelthpix{
+   background: url(earphones/earphones.jpg) no-repeat center;
+     background-size: 377px; 
+}
+/******************  wallets  *******************/
+.thirteenthpic{
+    background: url(wallets/wallet.jpg) no-repeat center;
+     background-size: 280px;  
+}
+/****************** neckbands *******************/
+.fourteenthpic{
+   background: url(neckband/neckband.jpg) no-repeat center;
+     background-size: 280px;   
+}
+/**************inside of analog watches**************************************************************/
+.firstpic_sm{
+   background: url(analogwatches/one.jpg) no-repeat center;
+    background-size: 310px;
+
+   
+}
+/****************** secondpic_sm    *******************/
+.secondpic_sm{
+   background: url(analogwatches/two.jpg) no-repeat center;
+    background-size: 290px; 
+}
+/******************    thirdpic_sm   *******************/
+.thirdpic_sm{
+   background: url(analogwatches/three.jpg) no-repeat center;
+    background-size: 310px;
+}
+/******************   fourthpic_sm    *******************/
+.fourthpic_sm{
+     background: url(analogwatches/four.jpg) no-repeat center;
+    background-size: 317px;
+}
+/******************   fifthpic_sm   *******************/
+.fifthpic_sm{
+    background: url(analogwatches/five.jpg) no-repeat ;
+    background-size: 377px;
+}
+/******************* sixthpic_sm  *******************/
+.sixthpic_sm{
+    background:url(analogwatches/six.jpg) no-repeat 1px;
+    background-size: 390px;
+}
+
+/******************  seventhpic_sm  *******************/
+.seventhpic_sm{
+    background: url(analogwatches/seven.jpg) no-repeat center;
+    background-size: 377px;
+}
+
+/******************eigthpic_sm  *******************/
+.eigthpic_sm{
+  background: url(analogwatches/eight.jpg) no-repeat center;
+    background-size: 350px;  
+    
+}
+
+/****************** ninthpic_sm  *******************/
+.ninthpic_sm{
+   background: url(analogwatches/nine.jpg) no-repeat center;
+    background-size: 315px;  
+    
+}
+
+/****************** tenthpic_sm  *******************/
+
+.tenthpic_sm{
+    background: url(analogwatches/ten.jpg) no-repeat center;
+     background-size: 377px;
+    
+}
+/****************** thpic_sm *******************/
+
+.thpic_sm{
+    background: url(analogwatches/eleven.jpg) no-repeat center;
+     background-size: 310px;
+    
+}
+/******************  twelthpix_sm  *******************/
+
+.twelthpix_sm{
+   background: url(analogwatches/twel.jpg) no-repeat center;
+     background-size: 377px; 
+}
+/*****************thirteenthpic_sm *******************/
+.thirteenthpic_sm{
+    background: url(analogwatches/thirteen.jpg) no-repeat center;
+     background-size: 310px;  
+}
+/****************** fourteenthpic_sm *******************/
+.fourteenthpic_sm{
+   background: url(analogwatches/fourteen.jpg) no-repeat center;
+     background-size: 310px;   
+}
+/****************** fifteenthpic_sm *******************/
+.fifteenthpic_sm{
+   background: url(analogwatches/fifteen.jpg) no-repeat center;
+     background-size: 310px;   
+}
+/**************inside of airpods**************************************************************/
+.firstpic_ap{
+   background: url(airpods/one.jpg) no-repeat center;
+    background-size: 310px;
+
+   
+}
+/****************** secondpic_ap   *******************/
+.secondpic_ap{
+   background: url(airpods/two.jpg) no-repeat center;
+    background-size: 320px; 
+}
+/******************    thirdpic_ap  *******************/
+.thirdpic_ap{
+   background: url(airpods/three.jpg) no-repeat center;
+    background-size: 390px;
+}
+/******************   fourthpic_ap    *******************/
+.fourthpic_ap{
+     background: url(airpods/four.jpg) no-repeat center;
+    background-size: 317px;
+}
+/******************   fifthpic_ap   *******************/
+.fifthpic_ap{
+    background: url(airpods/five.jpg) no-repeat ;
+    background-size: 290px;
+}
+/******************* sixthpic_ap  *******************/
+.sixthpic_ap{
+    background:url(airpods/six.jpg) no-repeat 1px;
+    background-size: 290px;
+}
+
+/******************  seventhpic_ap *******************/
+.seventhpic_ap{
+    background: url(airpods/seven.jpg) no-repeat center;
+    background-size: 290px;
+}
+
+/******************eigthpic_ap  *******************/
+.eigthpic_ap{
+  background: url(airpods/eight.jpg) no-repeat center;
+    background-size: 350px;  
+    
+}
+
+/****************** ninthpic_ap  *******************/
+.ninthpic_ap{
+   background: url(airpods/nine.jpg) no-repeat center;
+    background-size: 315px;  
+    
+}
+/************** INSIDE OF  SPEAKERS**************************************************************/
+.firstpic_s{
+   background: url(speaker/one.jpg) no-repeat center;
+    background-size: 310px;
+
+   
+}
+/****************** secondpic_s   *******************/
+.secondpic_s{
+   background: url(speaker/two.jpg) no-repeat center;
+    background-size: 290px; 
+}
+/******************    thirdpic_s   *******************/
+.thirdpic_s{
+   background: url(speaker/three.jpg) no-repeat center;
+    background-size: 310px;
+}
+/******************   fourthpic_s    *******************/
+.fourthpic_s{
+     background: url(speaker/four.jpg) no-repeat center;
+    background-size: 290px;
+}
+/******************   fifthpic_s   *******************/
+.fifthpic_s{
+    background: url(speaker/five.jpg) no-repeat ;
+    background-size: 290px;
+}
+/******************* sixthpic_s  *******************/
+.sixthpic_s{
+    background:url(speaker/six.jpg) no-repeat 1px;
+    background-size: 300px;
+}
+
+/******************  seventhpic_s  *******************/
+.seventhpic_s{
+    background: url(speaker/seven.jpg) no-repeat center;
+    background-size: 300px;
+}
+
+/******************eigthpic_s  *******************/
+.eigthpic_s{
+  background: url(speaker/eight.jpg) no-repeat center;
+    background-size: 300px;  
+    
+}
+
+/****************** ninthpic_s  *******************/
+.ninthpic_s{
+   background: url(speaker/nine.jpg) no-repeat center;
+    background-size: 280px;  
+    
+}
+
+/****************** tenthpic_s  *******************/
+
+.tenthpic_s{
+    background: url(speaker/ten.jpg) no-repeat center;
+     background-size: 377px;
+    
+}
+/************** INSIDE OF earphones**************************************************************/
+.firstpic_ep{
+   background: url(earphones/one.jpg) no-repeat center;
+    background-size: 310px;
+
+   
+}
+/****************** secondpic_ep   *******************/
+.secondpic_ep{
+   background: url(earphones/two.jpg) no-repeat center;
+    background-size: 290px; 
+}
+/******************    thirdpic_ep   *******************/
+.thirdpic_ep{
+   background: url(earphones/three.jpg) no-repeat center;
+    background-size: 310px;
+}
+/******************   fourthpic_ep    *******************/
+.fourthpic_ep{
+     background: url(earphones/foure.jpg) no-repeat center;
+    background-size: 290px;
+}
+/******************   fifthpic_ep   *******************/
+.fifthpic_ep{
+    background: url(earphones/five.jpg) no-repeat ;
+    background-size: 290px;
+}
+/******************* sixthpic_ep  *******************/
+.sixthpic_ep{
+    background:url(earphones/six.jpg) no-repeat 1px;
+    background-size: 300px;
+}
+
+/******************  seventhpic_ep  *******************/
+.seventhpic_ep{
+    background: url(earphones/earphones.jpg) no-repeat center;
+    background-size: 300px;
+}
+/************** INSIDE OF  wallets**************************************************************/
+.firstpic_w{
+   background: url(wallets/one.jpg) no-repeat center;
+    background-size: 310px;
+
+   
+}
+/****************** secondpic_s   *******************/
+.secondpic_w{
+   background: url(wallets/two.jpg) no-repeat center;
+    background-size: 290px; 
+}
+/******************    thirdpic_s   *******************/
+.thirdpic_w{
+   background: url(wallets/three.jpg) no-repeat center;
+    background-size: 310px;
+}
+/******************   fourthpic_s    *******************/
+.fourthpic_w{
+     background: url(wallets/four.jpg) no-repeat center;
+    background-size: 290px;
+}
+/******************   fifthpic_s   *******************/
+.fifthpic_w{
+    background: url(wallets/five.jpg) no-repeat ;
+    background-size: 290px;
+}
+/******************* sixthpic_s  *******************/
+.sixthpic_w{
+    background:url(wallets/six.jpg) no-repeat 1px;
+    background-size: 300px;
+}
+
+/******************  seventhpic_s  *******************/
+.seventhpic_w{
+    background: url(wallets/seven.jpg) no-repeat center;
+    background-size: 300px;
+}
+
+/******************eigthpic_s  *******************/
+.eigthpic_w{
+  background: url(wallets/eight.jpg) no-repeat center;
+    background-size: 300px;  
+    
+}
+
+/****************** ninthpic_s  *******************/
+.ninthpic_w{
+   background: url(wallets/nine.jpg) no-repeat center;
+    background-size: 280px;  
+    
+}
+
+/****************** tenthpic_s  *******************/
+
+.tenthpic_w{
+    background: url(wallets/ten.jpg) no-repeat center;
+     background-size: 377px;
+    
+}
+/******************  thirteenthpic_w_s    *******************/
+.thirteenthpic_w{
+     background: url(wallets/eleven.jpg) no-repeat center;
+    background-size: 290px;
+}
+/******************   fifthpic_s   *******************/
+.fourteenthpic_w{
+    background: url(wallets/twelve.jpg) no-repeat ;
+    background-size: 290px;
+}
+/******************* sixthpic_s  *******************/
+.fifteenthpic_w{
+    background:url(wallets/thirteen.jpg) no-repeat 1px;
+    background-size: 300px;
+}
+/************** INSIDE OF  jeanspant**************************************************************/
+.firstpic_jp{
+   background: url(Jeans_pant/one.jpg) no-repeat center;
+    background-size: 310px;
+
+   
+}
+/****************** secondpic_s   *******************/
+.secondpic_jp{
+   background: url(Jeans_pant/two.jpg) no-repeat center;
+    background-size: 290px; 
+}
+/******************    thirdpic_s   *******************/
+.thirdpic_jp{
+   background: url(Jeans_pant/five.jpg) no-repeat center;
+    background-size: 310px;
+}
+/******************   fourthpic_s    *******************/
+.fourthpic_jp{
+     background: url(Jeans_pant/four.jpg) no-repeat center;
+    background-size: 290px;
+}
+/******************   fifthpic_s   *******************/
+.fifthpic_jp{
+    background: url(Jeans_pant/three.jpg) no-repeat ;
+    background-size: 290px;
+}
+/************** INSIDE OF  smart watches**************************************************************/
+.firstpic_sw{
+   background: url(smartwatches/one.jpg) no-repeat center;
+    background-size: 310px;
+
+   
+}
+/****************** secondpic_sw   *******************/
+.sixthpic_sw{
+   background: url(smartwatches/two.jpg) no-repeat center;
+    background-size: 290px; 
+}
+/******************    thirdpic_sw   *******************/
+.thirdpic_sw{
+   background: url(smartwatches/three.jpg) no-repeat center;
+    background-size: 310px;
+}
+/******************   fourthpic_sw    *******************/
+.fourthpic_sw{
+     background: url(smartwatches/four.jpg) no-repeat center;
+    background-size: 290px;
+}
+/******************   fifthpic_sw   *******************/
+.fifthpic_sw{
+    background: url(smartwatches/five.jpg) no-repeat ;
+    background-size: 290px;
+}
+/******************* sixthpic_sw  *******************/
+.fifteenthpic_sw{
+    background:url(smartwatches/smartwatches.jpg) no-repeat 1px;
+    background-size: 300px;
+}
+/**************inside of slippers**************************************************************/
+.firstpic_sl{
+   background: url(slippers/one.jpg) no-repeat center;
+    background-size: 310px;
+
+   
+}
+
+/******************    thirdpic_sm   *******************/
+.thirdpic_sl{
+   background: url(slippers/three.jpg) no-repeat center;
+    background-size: 500px;
+}
+/******************   fourthpic_sm    *******************/
+.fourthpic_sl{
+     background: url(slippers/four.jpg) no-repeat center;
+    background-size: 450px;
+}
+/******************   fifthpic_sm   *******************/
+.fifthpic_sl{
+    background: url(slippers/five.jpg) no-repeat ;
+    background-size: 357px;
+}
+/******************* sixthpic_sm  *******************/
+.sixthpic_sl{
+    background:url(slippers/six.jpg) no-repeat 1px;
+    background-size: 350px;
+}
+
+/******************  seventhpic_sm  *******************/
+.seventhpic_sl{
+    background: url(slippers/seven.jpg) no-repeat center;
+    background-size: 347px;
+}
+
+/******************eigthpic_sm  *******************/
+.eigthpic_sl{
+  background: url(slippers/teo.jpg) no-repeat center;
+    background-size: 450px;  
+    
+}
+
+/****************** ninthpic_sm  *******************/
+.ninthpic_sl{
+   background: url(slippers/nine.jpg) no-repeat center;
+    background-size: 375px;  
+    
+}
+
+/****************** tenthpic_sm  *******************/
+
+.tenthpic_sl{
+    background: url(slippers/ten.jpg) no-repeat center;
+     background-size: 357px;
+    
+}
+/****************** thpic_sm *******************/
+
+.thpic_sl{
+    background: url(slippers/eleven.jpg) no-repeat center;
+     background-size: 390px;
+    
+}
+/******************  twelthpix_sm  *******************/
+
+.twelthpix_sl{
+   background: url(slippers/twelve.jpg) no-repeat center;
+     background-size: 377px; 
+}
+/*****************thirteenthpic_sm *******************/
+.thirteenthpic_sl{
+    background: url(slippers/thirteen.jpg) no-repeat center;
+     background-size: 390px;  
+}
+/****************** fourteenthpic_sm *******************/
+.fourteenthpic_sl{
+   background: url(slippers/fourteen.jpg) no-repeat center;
+     background-size: 390px;   
+}
+/**************inside of shoes**************************************************************/
+.firstpic_sh{
+   background: url(shoes/one.jpg) no-repeat center;
+    background-size: 440px;  
+}
+/******************    thirdpic_sm   *******************/
+.thirdpic_sh{
+   background: url(shoes/three.jpg) no-repeat center;
+    background-size: 350px;
+}
+/******************   fourthpic_sm    *******************/
+.fourthpic_sh{
+     background: url(shoes/four.jpg) no-repeat center;
+    background-size: 350px;
+}
+/******************   fifthpic_sm   *******************/
+.fifthpic_sh{
+    background: url(shoes/five.jpg) no-repeat ;
+    background-size: 357px;
+}
+/******************* sixthpic_sm  *******************/
+.sixthpic_sh{
+    background:url(shoes/six.jpg) no-repeat 1px;
+    background-size: 350px;
+}
+
+/******************  seventhpic_sm  *******************/
+.seventhpic_sh{
+    background: url(shoes/seven.jpg) no-repeat center;
+    background-size: 347px;
+}
+
+/******************eigthpic_sm  *******************/
+.eigthpic_sh{
+  background: url(shoes/eight.jpg) no-repeat center;
+    background-size: 370px;  
+    
+}
+
+/****************** ninthpic_sm  *******************/
+.ninthpic_sh{
+   background: url(shoes/nine.jpg) no-repeat center;
+    background-size: 375px;  
+    
+}
+
+/****************** tenthpic_sm  *******************/
+
+.tenthpic_sh{
+    background: url(shoes/ten.jpg) no-repeat center;
+     background-size: 377px;
+    
+}
+/****************** thpic_sm *******************/
+
+.thpic_sh{
+    background: url(shoes/eleven.jpg) no-repeat center;
+     background-size: 390px;
+    
+}
+/******************  twelthpix_sm  *******************/
+
+.twelthpix_sh{
+   background: url(shoes/tweleve.jpg) no-repeat center;
+     background-size: 377px; 
+}
+/*****************thirteenthpic_sm *******************/
+.thirteenthpic_sh{
+    background: url(shoes/thirteen.jpg) no-repeat center;
+     background-size: 390px;  
+}
+/****************** secondpic_sh *******************/
+.secondpic_sh{
+   background: url(shoes/two.jpg) no-repeat center;
+     background-size: 390px;   
+}
+
+
+
+
+
